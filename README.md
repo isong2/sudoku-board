@@ -13,6 +13,8 @@ Place the following files into one folder:
    - GUI.py
    - sudokuBacktrackingSolver.py
    - webscraper.py
+   - basic_graphics.py
+   - cmu_112_graphics.py
 
 Then, run GUI.py. You should see a 400x400 menu screen.
 You can either select daily boards, get a random board, or create your own board.
