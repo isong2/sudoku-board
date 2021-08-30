@@ -40,8 +40,3 @@ The top left square on each screen (besides the menu) is a back-button.
 Libraries/Modules used:
 
 Requests and BeautifulSoup
-
-
-Shortcut commands:
-
-There are no shortcut commands.
