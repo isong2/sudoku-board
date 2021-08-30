@@ -1,13 +1,38 @@
 # sudoku-board
 
-Enjoy my 15-112 Term Project !
+Description:
 
-DISCLAIMER: basic_graphics AND cmu_112_graphics TAKEN FROM CMU 15-112 COURSE
+The name of the term project is Sudoku: Solving and Rotating ! This project scrapes random boards from menneske and boards from the NYT daily puzzles so that the user can attempt to solve them for practice. There is a backtracking solver as well as a rotation feature.
 
-Install the beautifulsoup module, and download/place all python files into a repository then run GUI.py
+How to run:
 
-1. Press through the menu to select the mode you would like to play
-2. If you selected rotation mode, type into the terminal the intervals at which you would like the board to rotate
-3. Click on a box and press any number from 1-9 to "pencil in" a number, once satisfied, press enter (disappears: correct, else: incorrect)
-4. To remove an entry, click on the box and press "BACKSPACE"
-5. To have the board solved for you, press "SPACEBAR"
+Note: this was created under Python 3.6.
+
+Place the following files into one folder:
+   - rotatingMatrix.py
+   - GUI.py
+   - sudokuBacktrackingSolver.py
+   - webscraper.py
+
+Then, run GUI.py. You should see a 400x400 menu screen.
+You can either select daily boards, get a random board, or create your own board.
+
+To play the game:
+
+Left click a square and the current selection will be highlighted. 
+Press a number between 1-9 on the keyboard afterwards in order to "pencil in" a number.
+Press delete in order to remove a penciled-in number.
+Press enter on a selected-square with a pencil-in number to 'check' it. If it is solvable from that number, then it will be placed onto the board and uneditable, if not it will be deleted.
+If solving a board, press 'space' to have the board solve itself with the algorithm.
+If creating a board, press 'space' to finalize your selection of that board.
+The top left square on each screen (besides the menu) is a back-button.
+
+
+Libraries/Modules used:
+
+Requests and BeautifulSoup
+
+
+Shortcut commands:
+
+There are no shortcut commands.
