@@ -1,8 +1,14 @@
 # sudoku-board
 
+Demo Video:
+
+https://youtu.be/IkEGIxBS1V8
+
+
 Description:
 
 The name of the term project is Sudoku: Solving and Rotating ! This project scrapes random boards from menneske and boards from the NYT daily puzzles so that the user can attempt to solve them for practice. There is a backtracking solver as well as a rotation feature.
+
 
 How to run:
 
@@ -18,6 +24,7 @@ Place the following files into one folder:
 
 Then, run GUI.py. You should see a 400x400 menu screen.
 You can either select daily boards, get a random board, or create your own board.
+
 
 To play the game:
 
